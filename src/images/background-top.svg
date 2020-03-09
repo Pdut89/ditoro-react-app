@@ -1,49 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg8"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="168.25864mm"
+   height="64.899216mm"
+   viewBox="0 0 168.25864 64.899216"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="297mm"
-   width="210mm">
+   id="svg8"
+   sodipodi:docname="background-top.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <defs
      id="defs2">
     <filter
-       id="filter996"
-       style="color-interpolation-filters:sRGB;">
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter996">
       <feFlood
-         id="feFlood986"
-         result="flood"
+         flood-opacity="0.498039"
          flood-color="rgb(0,0,0)"
-         flood-opacity="0.498039" />
+         result="flood"
+         id="feFlood986" />
       <feComposite
-         id="feComposite988"
-         result="composite1"
-         operator="in"
+         in="flood"
          in2="SourceGraphic"
-         in="flood" />
+         operator="in"
+         result="composite1"
+         id="feComposite988" />
       <feGaussianBlur
-         id="feGaussianBlur990"
-         result="blur"
+         in="composite1"
          stdDeviation="0.3"
-         in="composite1" />
+         result="blur"
+         id="feGaussianBlur990" />
       <feOffset
-         id="feOffset992"
-         result="offset"
+         dx="-2.77556e-17"
          dy="0.5"
-         dx="-2.77556e-17" />
+         result="offset"
+         id="feOffset992" />
       <feComposite
-         id="feComposite994"
-         result="composite2"
-         operator="over"
+         in="SourceGraphic"
          in2="offset"
-         in="SourceGraphic" />
+         operator="over"
+         result="composite2"
+         id="feComposite994" />
     </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1050">
+      <rect
+         style="opacity:0.56800022;fill:#ececec;fill-opacity:1;stroke:#ececec;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1052"
+         width="168.25864"
+         height="64.899216"
+         x="20.032736"
+         y="6.5252967" />
+    </clipPath>
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="318.96906"
+     inkscape:cy="-3.174056"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1887"
+     inkscape:window-height="2105"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -57,10 +97,16 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1">
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.032736,-6.5252967)">
     <path
+       style="opacity:0.56800011;fill:#ececec;fill-opacity:1;stroke:#ececec;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter996)"
+       d="M 20.032737,6.5252964 H 188.42113 V 64.355653 c -73.34624,20.485269 -131.663861,-20.524448 -168.388393,0 z"
        id="rect815"
-       d="M 30.994047,25.613094 H 199.38244 v 57.830357 c -65.19452,27.434279 -115.36042,-21.727161 -168.388393,0 z"
-       style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#ececec;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter996)" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       clip-path="url(#clipPath1050)" />
   </g>
 </svg>

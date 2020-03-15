@@ -1,6 +1,8 @@
 import React from 'react'
-import backgroundTop from './images/background-top.svg'
+import backgroundTop from './images/background-top.png'
 import logo from './images/logo.svg'
+
+import ContactForm from './components/contact-form'
 
 const styles = {
   backgroundTop: {
@@ -9,6 +11,8 @@ const styles = {
     left: 0,
     right: 0,
     width: '100vw',
+    minWidth: 1000,
+    height: '100vh'
   },
   logo: {
     position: 'absolute',
@@ -17,6 +21,11 @@ const styles = {
     transform: 'translateX(-50%)',
     width: '40%',
     minWidth: 300
+  },
+  homeSection: {
+    position: 'relative',
+    overflow: 'hidden',
+    height: '100vh',
   }
 }
 
@@ -24,8 +33,15 @@ const styles = {
 function App() {
   return (
     <div className="App">
-      <img src={backgroundTop} alt="background-top" style={styles.backgroundTop}/>
-      <img src={logo} alt="logo" style={styles.logo}/>
+      <section style={styles.homeSection}>
+        <img src={backgroundTop} alt="background-top" style={styles.backgroundTop} />
+        <img src={logo} alt="logo" style={styles.logo} />
+      </section>
+
+      <section>
+        {/* <ContactForm /> */}
+      </section>
+      
     </div>
   )
 }
